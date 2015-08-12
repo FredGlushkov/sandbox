@@ -5,7 +5,10 @@ body{
 	float:left;
 	margin:30px 25px;
 }
-#rating_stars {float:left;}
+#rating_stars {
+	float:left;
+	min-width:90px;
+}
 .rating_star, .rating_star_a  {
 	display:inline-block;
 	float:left;
